@@ -1,0 +1,14 @@
+diff a/test.php b/test.php	(rejected hunks)
+@@ -0,0 +1,11 @@
++<?
++$data =array(
++    'Nepal'=>'kathmandu',
++    'China'=>'Beiging',
++    'Pakistan'=>'Islamabad',
++);
++foreach($data as $k=>$v)
++{
++    echo $k.'----'.$v.'<br>';
++}
++?>
+\ No newline at end of file

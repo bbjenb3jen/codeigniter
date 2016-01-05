@@ -8,4 +8,9 @@ foreach($data as $k=>$v)
 {
     echo $k.'----'.$v.'<br>';
 }
+//Now second step
+
+$capital = 'Kathmandu';
+$show = 'capital';
+echo $$show;
 ?>
